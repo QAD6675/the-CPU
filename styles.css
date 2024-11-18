@@ -7,18 +7,19 @@
 }
 
 body {
-    background-color: #737373;
+    background-color: #7373736c;
     background: url(./touls/cpuB.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:110%;
+    background-attachment:fixed;
     height: auto;
 }
 
 a,
 a:visited {
-    color: #fff;
+    font-weight: bold;
+    color: #3d6ac5;
     text-decoration: none;
 }
 
@@ -47,6 +48,7 @@ header {
 
 footer {
     position: sticky;
+    bottom: 0px;
     padding: 0 2rem;
     min-height: 50px;
     justify-content: space-between;
@@ -57,7 +59,8 @@ span {
 }
 
 header span.names {
-    color: #fff;
+    font-weight: 400;
+    color: #a9acbc;
 }
 
 main {
@@ -78,19 +81,19 @@ main :nth-child(1) {
     display: flex;
     margin: 5%;
     padding: 5% 5%;
-    background-color: rgb(39, 24, 24);
+    background-color: rgba(6, 5, 5, 0.88);
     border: solid 2px;
-    border-radius: 50%;
+    border-radius: 10vw;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     scroll-margin-block: initial;
 }
 
-
 .sect.title {    
     text-shadow: 2px 2px 2px #000;
     background: url(./touls/cpu.jpeg);
+    border-radius: 4vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +101,8 @@ main :nth-child(1) {
 /*  */
 
 .sect h2{
+    position: relative;
+    left: -12%;
     font-size: 4em;
     color: #737373;
 }
@@ -126,4 +131,9 @@ img.right{
     float: right;
 }
 
-
+.nav{
+    position: relative;
+    top:-14px;
+    font-size: 3rem;
+    height: 3vh;
+}

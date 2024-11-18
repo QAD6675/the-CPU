@@ -1,0 +1,15 @@
+{
+  "name": "the-cpu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx serve ./"
+  },
+  "author": "qad7098",
+  "license": "ISC",
+  "description": "school proj",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
